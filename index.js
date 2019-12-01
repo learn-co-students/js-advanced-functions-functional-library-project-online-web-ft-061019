@@ -123,9 +123,9 @@ const fi = (function() {
       return newArray;
     },
 
-    unpack: function(receiver, arr) {
-      for (let val of arr)
-        receiver.push(val)
+    unpack: function(receiver, array) {
+      for (let value of array)
+        receiver.push(value)
     },  //--> StackOverflow reference to write flatten function
 
     flatten: function(collection, shallow, newArray=[]) {
