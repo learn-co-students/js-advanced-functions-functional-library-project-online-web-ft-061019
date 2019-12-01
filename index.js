@@ -42,9 +42,6 @@ const fi = (function() {
       return acc
     },
 
-    functions: function() {
-    },
-
     find: function(collection, predicate){
       if (typeof collection === 'object'){
         for (const key in collection){
