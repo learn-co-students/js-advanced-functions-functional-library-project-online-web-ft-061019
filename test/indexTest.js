@@ -285,9 +285,8 @@ describe('index.js', function () {
     const final = ["c", "k", "z"]
 
 
-    it('returns a sorted collection of the names of every method in an object', function () {
-      expect(arraysEqual(fi.functions(testObject), final)).to.equal(true)
-    })
+
+
   })
 })
 
